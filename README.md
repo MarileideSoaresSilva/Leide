@@ -10,3 +10,7 @@
   <img height="180cm" src="https://github-readme-stats.vercel.app/api?username=MarileideSoaresSilva&theme=dark&show_icons=true">
   <img height="180cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarileideSoaresSilva&layout-compact&langs_count-4&theme=dark&show_icons=true">
 </div>
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Leide-Js" height="30" width-"40" src="devicon-javascript-plain">
+</div>
