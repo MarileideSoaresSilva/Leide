@@ -4,11 +4,18 @@
 
 🔎 # I'm looking for news skills and challenge.
 
+##
 
 <div>
   <a href = "https://www.linkedin.com/in/marileidesoaressilva/">
   <img height="180cm" src="https://github-readme-stats.vercel.app/api?username=MarileideSoaresSilva&theme=dark&show_icons=true">
-  <img height="180cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarileideSoaresSilva&layout-compact&langs_count-4&theme=dark&show_icons=true">
+</div>
+
+##
+
+<div>
+    <img height="180cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarileideSoaresSilva&layout-compact&langs_count-4&theme=dark&show_icons=true">
+
 </div>
 
 ##
