@@ -12,5 +12,7 @@
 </div>
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="Leide-Js" height="30" width-"40" src="devicon-javascript-plain">
+  
+  <i class="devicon-javascript-plain"></i>        
+  <img align="center" alt="Leide-Js" height="30" width-"40">
 </div>
