@@ -5,3 +5,7 @@
 🔎 # I'm looking for news skills and challenge.
 
 
+<div>
+  <a href = "https://www.linkedin.com/in/marileidesoaressilva/">
+  <img height="180cm" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true">
+</div>
