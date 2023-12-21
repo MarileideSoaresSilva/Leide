@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"  href="css/estilo.css"
+    
+    <!--Scripts-->-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--PHP+Popper.js-->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"
+        integrity="sha384-MeK2wrrhqgPJwSd28DD9yr9+t18ZHksSmtFJ08yYRjgAd/0P58SX8a6ReFp7fE02"
+        crossorigin="anonymous"
+    ></script>
+
+
+</head>
+
+<body>
+    
+    <script src="js/scripts.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 mt-5">
+                <form>
+                    <h1 class="text-center mb-4">
+                        <strong>Chekout da Disciplina de Fundamentos Web - Modulo 4: Formulário.</strong>
+                    </h1>
+                    <form action="App.jsx" method="POST">
+                        <div>
+                        </div>
+
+
+                        <div class="campo">
+                            <fieldset class="grupo1">
+                                <legend for="dadosPessoais">Dados Pessoais:</legend>
+
+                                <div class="form-group">
+                                    <label for="nome">Nome:</label>
+                                    <input type="text" class="form-control" id="nome" size="140"
+                                        placeholder="Nome Completo" required />
+                                </div>
+
+
+                                <label for="cpf">CPF: </label>
+                                <input type="text" name="CPF" id="cpf" size="140" placeholder="CPF" required /><br>
+
+
+                                <label for="date">Data de Nascimento: </label>
+                                <input type="date" name="Data" id="date" placeholder="Data de Nascimento"
+                                    required /><br>
+
+                                <label for="civil">Est. Civil: </label><select id="civil" name="Est.Civil">
+                                    <option value="Solteiro">Solteiro</option>
+                                    <option value="Casado">Casado</option>
+                                    <option value="Viúvo">Viúvo</option>
+                                    <option value="Divorciado">Divorciado</option>
+                                </select><br>
+
+                                <label for="sexo" ;>Sexo: </label>
+                                <input id="sexo" type="radio" name="Sexo" value="M"> Masculino
+                                <input id="sexo" type="radio" name="Sexo" value="F"> Feminino
+                                <input id="sexo" type="radio" name="Sexo" value="N"> Não Declarado
+                                <br>
+
+
+                            </fieldset>
+
+                            <fieldset class="grupo2">
+                                <legend for="contato">Dados de Contato:</legend>
+
+                                <label for="mail">Email: </label>
+                                <input id="mail" type="email" name="E-mail" size="140" placeholder="E-mail"
+                                    required /><br>
+
+
+                                <label for="website">WebSite: </label>
+                                <input id="website" type="text" name="WebSite" size="140" placeholder="Web Site" /><br>
+
+
+                                <label for="fone">Telefone: </label>
+                                <input id="fone" type="text" name="Telefone" size="30" placeholder="Telefone" /><br>
+
+
+                                <label for="cell">Celular: </label>
+                                <input id="cell" type="text" name="Celular" size="30" placeholder="Celular"
+                                    required /><br>
+
+
+                                <label for="endereco">Endereço: </label>
+                                <input id="endereco" type="text" name="Endereço" size="140" placeholder="Endereço"
+                                    required /><br>
+
+
+                                <label for="bairro">Bairro: </label>
+                                <input id="bairro" type="text" name="Bairro" size="140" placeholder="Bairro"
+                                    required /><br>
+
+
+                                <label for="city">Cidade: </label>
+                                <input id="city" type="text" name="Cidade" size="140" placeholder="Cidade"
+                                    required /><br>
+
+
+                                <label for="cep">Cep: </label>
+                                <input id="cep" type="text" name="Cep" size="60" placeholder="Cep" required /><br>
+
+
+                                <label for="UF">UF</label>
+                                <select id="UF" name="UF">
+                                    <option value="Acre">AC</option>
+                                    <option value="Alagoas">AL</option>
+                                    <option value="Amapá">AP</option>
+                                    <option value="Amazonas">AM</option>
+                                    <option value="Bahia">BA</option>
+                                    <option value="Ceará">CE</option>
+                                    <option value="Distrito Federal">DF</option>
+                                    <option value="Espírito Santo">ES</option>
+                                    <option value="Goiás">GO</option>
+                                    <option value="Maranhão">MA</option>
+                                    <option value="Mato Grosso">MT</option>
+                                    <option value="Mato Grosso do Sul">MS</option>
+                                    <option value="Minas Gerais">MG</option>
+                                    <option value="Pará">PA</option>
+                                    <option value="Paraíba">PB</option>
+                                    <option value="Paraná">PR</option>
+                                    <option value="Pernambuco">PE</option>
+                                    <option value="Piauí">PI</option>
+                                    <option value="Roraima">RR</option>
+                                    <option value="Rondônia">RO</option>
+                                    <option value="Rio de Janeiro">RJ</option>
+                                    <option value="Rio Grande do Norte">RN</option>
+                                    <option value="Rio Grande do Sul">RS</option>
+                                    <option value="Santa Catarina">SC</option>
+                                    <option value="São Paulo">SP</option>
+                                    <option value="Sergipe">SE</option>
+                                    <option value="Tocantins">TO</option>
+                                </select>
+
+                            </fieldset>
+
+                        </div>
+
+                        <div class="campo">
+                            <fieldset class="grupo3">
+                                <legend for="cadastro">Dados de Cadastro:</legend>
+                                <label for="login">Login: </label>
+                                <input type="text" name="Login" id="login" size="60" placeholder="Login" required /><br>
+
+                                <label for="password">Senha: </label>
+                                <input type="password" name="Senha" id="password" size="60" placeholder="Password"
+                                    maxlength="10" required /><br><br>
+
+                                <h3>Deseja receber informações sobre os seguintes assuntos abaixo:</h3><br>
+                                <label for="assuntos"></label>
+                                <input id="assuntos" type="checkbox" name="assunto1" value="Tecnologia"> Tecnologia
+                                <input id="assuntos" type="checkbox" name="assunto2" value="Esportes">Esportes
+                                <input id="assuntos" type="checkbox" name="assunto3" value="Automóveis">Automóveis
+                                <input id="assuntos" type="checkbox" name="assunto4" value="Culinária">Culinária
+                                <input id="assuntos" type="checkbox" name="assunto5" value="Política">Política
+                                <input id="assuntos" type="checkbox" name="assunto6" value="Policial">Policial
+                                <input id="assuntos" type="checkbox" name="assunto7" value="Tempo">Tempo
+                                <input id="assuntos" type="checkbox" name="assunto8" value="Cultura">Cultura
+                                <input id="assuntos" type="checkbox" name="assunto9" value="Economia">Economia
+                                <input id="assuntos" type="checkbox" name="assunto10" value="Jogos">Jogos
+                                <input id="assuntos" type="checkbox" name="assunto11" value="Educação">Educação
+                                <input id="assuntos" type="checkbox" name="assunto12" value="Viagem">Viagem
+                                <input id="assuntos" type="checkbox" name="assunto13" value="Emprego">Empregos
+                                <input id="assuntos" type="checkbox" name="assunto14" value="Moda e Estilo">Moda e
+                                Estilo
+                                <br>
+
+
+
+                            </fieldset>
+                        </div>
+                        <br>
+
+                        <p><input id="assuntos" type="checkbox" name="assunto15" value="autorizo" required>Li as regras
+                            de cadastro e autorizo a criação do usuário.
+                            <br>
+                        </p>
+
+                        <div class="button">
+                            <button type="submit" class="btn btn-primary mt-3">
+                                Confirmar
+                            </button>
+                            <button type="submit" class="btn btn-secondary mt-3">
+                                Retomar
+                            </button>
+
+                        </div>
+
+                    </form>
+                </body>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-fyBLqX0wRtq4tZxwTbFGB5S7c9m9r1XK6V9YDpejIi8qlA14M9q2GaxBvUirrHX5"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-VziKzSikd8g/CfMV1oYCwFp8kUxHc2fP0iRgF1gKIbZR7R0Ax/zNiiYGfEod6Zsw"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
