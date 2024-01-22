@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola de Tênis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="header">
+        <h2>Aprenda a jogar tênis!</h2>
+        <h4>Não importa sua idade...</h4>
+                
+    </section>
+    <div>
+        <a href="galeria.html"><h6>Conheça nossa escola!</h6></a>
+    
+        
+        <section id="banner">
+            <h3>Faça agora sua matrícula!!</h3><br>
+        </section>
+    
+    </div>
 
+    <div>
+        <section id="matricula">
+            <h3>Cadastro:</h3>
+            <form class=“tipsForm”>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+    
+                <label for="dia">Escolha os Dias:</label>
+                <select name="dia" id="diahorario" class=“formSelect”>
+                    <option value="domingo">Domingo</option>
+                    <option value="segunda">Segunda e Quarta</option>
+                    <option value="terca">Terça e Quinta</option>
+                    </select><br>
+    
+                <label for="horario">Escolha o Horário:</label>
+                <select name="horario" id="horario" class=“formSelect”>
+                    <option value="primeiro">17:30 a 18:30h</option>
+                    <option value="segundo">18:30 a 19:30h</option>
+                    <option value="terceiro">19:30 a 20:30h</option>
+                    <option value="quarto">20:30 a 21:30h</option>
+                    <option value="quinta">21:30 a 22:30h</option>
+                </select><br>
+    
+    
+                <button type="submit" class="formSubmit">Enviar Matrícula</button>
+            </form>
+        </section>
+    </div>
+
+    <div>
+        <br><a href="galeria.html"><h6>Conheça nossa escola!</h6></a>
+        <a href=""><h6>Siga-nos no Linkedin!</h6></a>
+        <br><br><br><br><br><br>
+        
+    </div>
+
+    <div>
+        <section id="contato">
+            <h3>Ou agende uma aula gratuita!!</h3> 
+            <h5>Contato:</h5>
+            <p>Email: contato@escoladetenis.com</p>
+            <p>Telefone: (xx) xxxxx-xxxx</p><br><br><br><br><br>
+        </section>
+    </div>
+
+    <div>
+        <section>
+            <footer>
+                <p>&copy; 2024 Escola de Tênis. Todos os direitos reservados.</p>
+            </footer>
+        </section>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
