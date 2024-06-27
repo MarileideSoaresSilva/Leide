@@ -1,8 +1,12 @@
-👩🏽‍💻 # Hi! I'm Leide Soares...
+👩🏽‍💻 # Hi! I'm Leide Soares... I currently work as a chemical technician in a UFMS laboratory.
 
-💻 # I'm studyng to become a Data Scientist, and therefore: Javascript, Python, R language, Power BI, ...
+💻 # I am studying Data Science at the same institution and have been learning about HTML, CSS, JavaScript, PowerBI, Python, and Artificial Intelligence.
 
-🔎 # I'm looking for news skills and challenge.
+🔎 # I want to develop AI projects to help professionals solve problems in various fields.
+
+![image](https://github.com/MarileideSoaresSilva/Leide/assets/143467517/16622f15-0a87-48d1-b822-d74abce35344)
+I am open to partnerships. If you would like to get in touch, my email is m.soares@ufms.br.
+
 
 ##
 
