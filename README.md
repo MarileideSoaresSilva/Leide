@@ -4,7 +4,6 @@
 
 🔎 # I want to develop AI projects to help professionals solve problems in various fields.
 
-![image](https://github.com/MarileideSoaresSilva/Leide/assets/143467517/16622f15-0a87-48d1-b822-d74abce35344)
 I am open to partnerships. If you would like to get in touch, my email is m.soares@ufms.br.
 
 
